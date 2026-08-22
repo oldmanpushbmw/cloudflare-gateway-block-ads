@@ -1,4 +1,4 @@
-# Cloudflare Gateway Block Ads 1
+# Cloudflare Gateway Block Ads 
 A GitHub Actions script to automatically create and update Cloudflare Zero Trust Gateway ad blocking lists and policy.
 
 The script works by periodically downloading the [OISD](https://oisd.nl/) small blocklist, splitting it into smaller chunks, uploading it to Cloudflare as multiple Domains lists, and then creating a policy that blocks all traffic to the domains in the lists.
